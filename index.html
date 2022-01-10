@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <title>Hello Forms</title>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <meta name="description" content="" />
+
+</head>
+
+<body>
+
+  <h1>Hello Forms</h1>
+
+  <form>
+      <fieldset>
+          <legend>Login</legend>
+            <!-- email -->
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" value ="first.last@gmail.com"><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" value ="green"><br>
+      </fieldset>
+
+      <fieldset>
+          <legend>Additional Info</legend>
+
+          <label for="gh">GitHub Username:</label><br>
+          <input type="text" id="gh" name="gh" value ="TheMagicNacho"><br>
+        <br>
+          <label for="subscription">GitHub Subscription Level:</label><br>
+          <input type="radio" name="subscription" value="Enterprise" id="Enterprise"> Enterprise <br>
+          <input type="radio" name="subscription" value="Pro" id="Pro"> Pro <br>
+          <input type="radio" name="subscription" value="Free" id="Free"> Free <br>
+          <br>
+          <input type="checkbox" name="remember" value="false" id="remember"> Remember Me <br>
+
+      </fieldset>
+    <br>
+
+    <button type="submit" name="button">Submit</button>
+  </form>
+
+</body>
+
+</html>
